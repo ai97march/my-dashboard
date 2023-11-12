@@ -30,7 +30,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       icon={icon}
     >
       <Typography>{title}</Typography>
-      <Link to={`my-dashboard/${to}`} />
+      <Link to={to} />
     </MenuItem>
   );
 };
